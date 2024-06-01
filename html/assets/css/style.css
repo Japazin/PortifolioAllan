@@ -2,7 +2,7 @@
 Project:	    Selfer
 Version:        1.0.0
 
-Default Color   #f26c4f;
+Default Color   #274ce1;
 Background Color  #020312;
 
 Body copy:		'Roboto', sans-serif; 14px;
@@ -335,11 +335,11 @@ B. Helpers
 }
 
 .ts-font-color__primary {
-    color: #f26c4f;
+    color: #0a34d0;
 }
 
 .ts-bg-primary {
-    background-color: #f26c4f;
+    background-color: #0e5ed6;
 }
 
 .ts-column-count-2 {
@@ -761,12 +761,12 @@ B. Helpers
 -------------------------------------------*/
 
 a {
-    color: #f26c4f;
+    color: #2ab1e7;
     transition: .3s ease;
 }
 
 a:hover {
-    color: rgb(237, 58, 18);
+    color: rgb(43, 135, 211);
     text-decoration: none;
 }
 
@@ -863,7 +863,7 @@ p {
 .ts-has-talk-arrow:after {
     border-style: solid;
     border-width: .625rem .625rem 0 0;
-    border-color: #f26c4f transparent transparent transparent;
+    border-color: #2d77f8 transparent transparent transparent;
     bottom: -0.625rem;
     content: "";
     left: 1rem;
@@ -1198,14 +1198,14 @@ blockquote h6 {
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-    background-color: #f26c4f;
-    border-color: #f26c4f;
+    background-color: #2b42d8;
+    border-color: #4f57f2;
     box-shadow: none;
 }
 
 .btn-primary {
-    background-color: #f26c4f;
-    border-color: #f26c4f;
+    background-color: #2e3ddf;
+    border-color: #3445c6;
     color: #fff;
 }
 
@@ -1260,7 +1260,7 @@ blockquote h6 {
     animation-fill-mode: forwards;
     animation-duration: .4s;
     animation-timing-function: cubic-bezier(.6, .01, 0, 1);
-    background-color: #f26c4f;
+    background-color: #4f62f2;
     bottom: 0;
     height: .125rem;
     margin: auto;
@@ -1437,7 +1437,7 @@ blockquote h6 {
 /* --Description */
 
 dl dt {
-    color: #f26c4f;
+    color: #1982af;
 }
 
 dl dd {
@@ -1630,7 +1630,7 @@ form.ts-labels-inside-input .form-group label.focused,
 }
 
 .ts-item-header .icon .step {
-    background-color: #f26c4f;
+    background-color: #274ce1;
     top: 0;
     box-shadow: .125rem .1875rem .9375rem rgba(0, 0, 0, .15);
     border-radius: 50%;
@@ -1659,7 +1659,7 @@ form.ts-labels-inside-input .form-group label.focused,
 
 ul.ts-list-colored-bullets li:before {
     content: "•";
-    color: #f26c4f;
+    color: #274ce1;
     vertical-align: middle;
     font-size: 1.75rem;
     padding-right: .75rem;
@@ -1803,7 +1803,7 @@ body.loading-done #ts-hero.ts-animate-hero-items .ts-social-icons {
 }
 
 .nav-link:after {
-    border-top: .1875rem solid #f26c4f;
+    border-top: .1875rem solid #274ce1;
     content: "";
     height: .1875rem;
     position: absolute;
@@ -1896,7 +1896,7 @@ iframe div {
 }
 
 .progress .progress-bar {
-    background-color: #f26c4f;
+    background-color: #274ce1;
     bottom: 0;
     height: .1875rem;
     position: absolute;
@@ -1918,7 +1918,7 @@ iframe div {
 }
 
 .ts-promo-number figure {
-    color: #f26c4f;
+    color: #274ce1;
     font-weight: 400;
 }
 
@@ -2006,7 +2006,7 @@ select::-ms-expand {
 .nav-tabs .nav-link.active {
     color: #191919;
     background-color: transparent;
-    border-bottom: .1875rem solid #f26c4f;
+    border-bottom: .1875rem solid #274ce1;
     opacity: 1;
 }
 
@@ -2080,7 +2080,7 @@ D. Plugins Styles
 }
 
 .owl-carousel .owl-dots .owl-dot.active span {
-    background-color: #f26c4f;
+    background-color: #274ce1;
     opacity: 1;
 }
 
@@ -2414,12 +2414,12 @@ E. Template Specific Elements
 }
 
 .ts-time-line__horizontal .ts-time-line__item.ts-time-line__milestone .ts-box {
-    background-color: #f26c4f;
+    background-color: #274ce1;
     color: #fff;
 }
 
 .ts-time-line__horizontal .ts-time-line__item.ts-time-line__milestone .ts-box:after {
-    border-color: #f26c4f transparent transparent transparent;
+    border-color: #274ce1 transparent transparent transparent;
 }
 
 .ts-time-line__horizontal .ts-time-line__item.ts-time-line__milestone h5 {
