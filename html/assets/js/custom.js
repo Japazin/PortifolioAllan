@@ -291,7 +291,6 @@ $(document).ready(function($) {
 
     $(".progress").each(function(){
         var $this = $(this);
-        $this.find(".ts-progress-value").text( $this.attr("data-progress-width") );
         $this.isInViewport(function(status) {
             if (status === "entered") {
                 $this.find(".progress-bar").width( $this.attr("data-progress-width") );
