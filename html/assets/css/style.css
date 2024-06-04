@@ -876,7 +876,7 @@ p {
 .ts-has-talk-arrow:after {
   border-style: solid;
   border-width: 0.625rem 0.625rem 0 0;
-  border-color: #2e3ddf transparent transparent transparent;
+  border-color: #d41636 transparent transparent transparent;
   bottom: -0.625rem;
   content: "";
   left: 1rem;
@@ -1214,14 +1214,14 @@ blockquote h6 {
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active {
-  background-color: #2b42d8;
-  border-color: #4f57f2;
+  background-color: #d41636;
+  border-color: #d41636;
   box-shadow: none;
 }
 
 .btn-primary {
-  background-color: #2e3ddf;
-  border-color: #3445c6;
+  background-color: #d41636;
+  border-color: #d41636;
   color: #fff;
 }
 
@@ -1928,7 +1928,7 @@ iframe div {
 }
 
 .progress .progress-bar {
-  background-color: #274ce1;
+  background-color: #d41636;
   bottom: 0;
   height: 0.1875rem;
   position: absolute;
@@ -1951,7 +1951,7 @@ iframe div {
 }
 
 .ts-promo-number figure {
-  color: #274ce1;
+  color: #d41636;
   font-weight: 400;
 }
 
