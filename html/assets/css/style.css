@@ -86,7 +86,7 @@ A. Basic Styling
 
 body {
   color: #fff;
-  background-color: #020312;
+  background-color: #000004;
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
   margin: 0;
@@ -345,11 +345,11 @@ B. Helpers
 }
 
 .ts-font-color__primary {
-  color: #0a34d0;
+  color: #000002;
 }
 
 .ts-bg-primary {
-  background-color: #030928;
+  background-color: #000000;
 }
 
 .ts-column-count-2 {
@@ -774,12 +774,12 @@ B. Helpers
 -------------------------------------------*/
 
 a {
-  color: #2ab1e7;
+  color: #ffffff;
   transition: 0.3s ease;
 }
 
 a:hover {
-  color: rgb(43, 135, 211);
+  color: rgb(255, 255, 255);
   text-decoration: none;
 }
 
@@ -1276,7 +1276,7 @@ blockquote h6 {
   animation-fill-mode: forwards;
   animation-duration: 0.4s;
   animation-timing-function: cubic-bezier(0.6, 0.01, 0, 1);
-  background-color: #4f62f2;
+  background-color: #d41636;
   bottom: 0;
   height: 0.125rem;
   margin: auto;
@@ -1455,7 +1455,7 @@ blockquote h6 {
 /* --Description */
 
 dl dt {
-  color: #1982af;
+  color: #d41636;
 }
 
 dl dd {
@@ -1844,7 +1844,7 @@ body.loading-done #ts-hero.ts-animate-hero-items .ts-social-icons {
 }
 
 .navbar-toggler {
-  background-color: #4192f447;
+  background-color: #f7f7f847;
   margin-left: auto;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
