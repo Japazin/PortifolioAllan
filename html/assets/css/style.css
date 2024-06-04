@@ -349,7 +349,7 @@ B. Helpers
 }
 
 .ts-bg-primary {
-  background-color: #0e5ed6;
+  background-color: #030928;
 }
 
 .ts-column-count-2 {
@@ -876,7 +876,7 @@ p {
 .ts-has-talk-arrow:after {
   border-style: solid;
   border-width: 0.625rem 0.625rem 0 0;
-  border-color: #2d77f8 transparent transparent transparent;
+  border-color: #2e3ddf transparent transparent transparent;
   bottom: -0.625rem;
   content: "";
   left: 1rem;
@@ -1832,7 +1832,7 @@ body.loading-done #ts-hero.ts-animate-hero-items .ts-social-icons {
 }
 
 .nav-link:after {
-  border-top: 0.1875rem solid #274ce1;
+  border-top: 0.1875rem solid #f1f2f5;
   content: "";
   height: 0.1875rem;
   position: absolute;
@@ -1844,6 +1844,7 @@ body.loading-done #ts-hero.ts-animate-hero-items .ts-social-icons {
 }
 
 .navbar-toggler {
+  background-color: #4192f447;
   margin-left: auto;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
