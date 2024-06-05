@@ -1918,6 +1918,8 @@ iframe div {
 @media (max-width: 621px) {
   .progress .ts-progress-value {
     position:sticky;
+    height: 20px;
+    width: 45px;
   }
 }
 
