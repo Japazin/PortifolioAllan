@@ -301,7 +301,7 @@ B. Helpers
 }
 
 .ts-border-radius__lg {
-  border-radius: 1rem;
+  border-radius: 1.5rem;
   overflow: hidden;
 }
 
