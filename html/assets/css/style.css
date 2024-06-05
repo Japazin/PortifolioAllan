@@ -1832,7 +1832,7 @@ body.loading-done #ts-hero.ts-animate-hero-items .ts-social-icons {
 }
 
 .nav-link:after {
-  border-top: 0.1875rem solid #f1f2f5;
+  border-top: 0.1875rem solid #d41636;
   content: "";
   height: 0.1875rem;
   position: absolute;
@@ -1913,8 +1913,12 @@ iframe div {
   position: absolute;
   left: 0%;
   transform: translateX(-1rem);
-
   width: 4pc;
+}
+@media (max-width: 621px) {
+  .progress .ts-progress-value {
+    position:sticky;
+  }
 }
 
 .progress .ts-progress-value:after {
@@ -2197,6 +2201,12 @@ E. Template Specific Elements
   display: inline-block;
   position: relative;
   transition: 0.6s ease;
+}
+@media (max-width: 600px) {
+  .ts-title-rotate span {
+    padding: 1rem 1.5rem;
+    font-size: 1.2rem;
+  }
 }
 
 .ts-bubble-border i {
