@@ -1,1 +1,3 @@
-documentation
+vendor
+composer.json
+composer.lock
