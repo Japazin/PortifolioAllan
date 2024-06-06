@@ -1,7 +1,12 @@
 <?php
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
+
+require 'vendor/autoload.php';
+
 mb_internal_encoding("UTF-8");
 
-$to = 'hello@example.com';
+$to = 'mateusfma@example.com';
 $subject = 'Message from Cryptex';
 
 $name = "";
@@ -44,12 +49,33 @@ if( isset($_POST['message']) ){
     $body .= "\n\n";
 }
 
-$headers = 'From: ' .$email . "\r\n";
+// Cria uma nova instância do PHPMailer
+$mail = new PHPMailer(true);
 
-if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
-mb_send_mail($to, $subject, $body, $headers);
-    echo '<div class="status-icon valid"><i class="fa fa-check"></i></div>';
+try {
+    // Configurações do servidor
+    $mail->isSMTP();
+    $mail->Host       = 'smtp.gmail.com';
+    $mail->SMTPAuth   = true;
+    $mail->Username   = 'emailaqui'; // Insira seu endereço de e-mail do Gmail
+    $mail->Password   = 'senhaaqui'; // Insira sua senha do Gmail
+    $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+    $mail->Port       = 587;
+
+    // Configurações do e-mail
+    $mail->setFrom($email, $name);
+    $mail->addAddress($to);
+    $mail->Subject = $subject;
+    $mail->Body    = $body;
+
+    // Envia o e-mail
+    if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        $mail->send();
+        echo '<div class="status-icon valid"><i class="fa fa-check"></i></div>';
+    } else {
+        echo '<div class="status-icon invalid"><i class="fa fa-times"></i></div>';
+    }
+} catch (Exception $e) {
+    echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
 }
-else{
-    echo '<div class="status-icon invalid"><i class="fa fa-times"></i></div>';
-}
+?>
