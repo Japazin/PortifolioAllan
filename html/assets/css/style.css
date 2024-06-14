@@ -1211,18 +1211,38 @@ blockquote h6 {
   transition: 0.3s ease;
 }
 
+
+.btn-primary {
+  background-color: #d41636;
+  border-color: #d41636;
+  color: #fff;
+}
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active {
   background-color: #d41636;
   border-color: #d41636;
   box-shadow: none;
+}.btn-primary:focus, .btn-primary.focus {
+  box-shadow: 0 0 0 0.2rem rgba(255, 0, 0, 0.5);
 }
 
-.btn-primary {
+.btn-primary.disabled, .btn-primary:disabled {
+  color: #fff;
   background-color: #d41636;
   border-color: #d41636;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
   color: #fff;
+  background-color: #d41636;
+  border-color: #d41636;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(121, 55, 55, 0.5);
 }
 
 .btn-lg {
