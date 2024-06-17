@@ -135,6 +135,9 @@ h6,
 .ts-h6 {
   font-size: 1rem;
 }
+  hr {
+    background-color: #d41636;
+  }
 
 /* NEW */
 
@@ -351,7 +354,9 @@ B. Helpers
 .ts-bg-primary {
   background-color: #000000;
 }
-
+.ts-bg-trasnparent {
+  background-color: #f7f7f800;
+}
 .ts-column-count-2 {
   column-count: 2;
 }
